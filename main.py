@@ -1,6 +1,6 @@
 import random
 
-print(" Let's compare numbers!")
+print("🌟 Let's compare numbers!")
 print("Type 'greater', 'less', or 'equal'.")
 
 score = 0
@@ -14,16 +14,16 @@ for i in range(3):
 
     # Check the correct answer
     if a > b and answer == "greater":
-        print(" Yes! You're right.")
+        print("🎉 Yes! You're right.")
         score += 1
     elif a < b and answer == "less":
-        print(" Good job! That's correct.")
+        print("🎉 Good job! That's correct.")
         score += 1
     elif a == b and answer == "equal":
-        print(" Yay! You got it.")
+        print("🎉 Yay! You got it.")
         score += 1
     else:
-        print(" Oops! Not quite.")
+        print("❌ Oops! Not quite.")
         if a > b:
             print(f"The right answer is: {a} is greater than {b}")
         elif a < b:
