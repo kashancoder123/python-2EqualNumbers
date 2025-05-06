@@ -9,7 +9,7 @@ for i in range(3):
     a = random.randint(1, 100)
     b = random.randint(1, 100)
 
-    print("f\nWhich is true about {a} and {b}?")
+    print("f\nWhich is true about {2} or {4}?")
     answer = input("Your answer (greater / less / equal): ").lower()
 
     # Check the correct answer
